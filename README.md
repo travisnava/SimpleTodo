@@ -16,8 +16,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [X] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
-* [X] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
+* [ ] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
+* [ ] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
 * [ ] Add support for completion due dates for todo items (and display within listview item)
 * [ ] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
 * [ ] Add support for selecting the priority of each todo item (and display in listview item)
@@ -29,19 +29,21 @@ No additional features have been implemented
 
 ## Video Walkthrough 
 
-[Here's a walkthrough of implemented user stories](https://www.dropbox.com/s/7po6gxijimp4ev1/TodoListApp.gif)
-[Here's a second walkthrough with extensions](https://www.dropbox.com/s/ahgyedow24utfr3/TodoListApp-extensions.gif)
+Here's a walkthrough of implemented user stories
+
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-- I had an old version of Android Studio, which wasn't compatible with the xml rendering engine. I had to upgrade to Android Studio 1.3
+- Despite following all of the instructions from the video playlist, my remove function does not work. When I long press on an item, the app simply crashes and force stops. Persistence and adding still work as intended. I rewrote the whole app twice, uninstalled a known incompatible anti-cheat from a video game installed on my hard drive, and haven't been able to successfuly fix the issue.
 
 ## License
 
-    Copyright 2015 Anna Geiduschek
+    Copyright 2021 Travis Navarro
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

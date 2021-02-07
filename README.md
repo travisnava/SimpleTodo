@@ -39,7 +39,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
-- Despite following all of the instructions from the video playlist, my remove function does not work. When I long press on an item, the app simply crashes and force stops. Persistence and adding still work as intended. I rewrote the whole app twice, uninstalled a known incompatible anti-cheat from a video game installed on my hard drive, and haven't been able to successfuly fix the issue.
+- Had difficulties with Android Studio, this was due to an anticheat called Vanguard that was installed on my system from the video game by Riot Studios called VALORANT. Had to uninstall this from my hard drive in order to have Android Studio fully functioning.
 
 ## License
 
